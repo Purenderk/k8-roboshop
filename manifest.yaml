@@ -23,4 +23,4 @@ metadata:
       spec: 
         containers:
           name: mongodb
-          image: techworldwithsiva/mongodb:k8
+          image: purenderk/mongodb:k8
