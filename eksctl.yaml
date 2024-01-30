@@ -3,7 +3,7 @@ kind: Clusterconfig
 
 metadata: 
     name: eks-spot-cluster
-    region: ap-south-1
+    region: us-east-1d
 
 metadataNodeGroups:
     name: spot
