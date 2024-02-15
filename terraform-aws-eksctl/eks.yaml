@@ -3,7 +3,7 @@ kind: ClusterConfig
 
 metadata: 
     name: eks-spot-cluster
-    region: us-east-1d
+    region: us-east-1
 
 managedNodeGroups:
     name: spot
@@ -11,5 +11,5 @@ managedNodeGroups:
     spot: true
     desiredCapacity: 3
     ssh:
-      publicKeyName: k8
+      publicKeyName: kubernetes
   
