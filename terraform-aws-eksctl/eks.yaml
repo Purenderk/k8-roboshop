@@ -6,10 +6,10 @@ metadata:
     region: us-east-1
 
 managedNodeGroups:
-    name: spot
-    instanceType: m5.large
-    spot: true
-    desiredCapacity: 3
-    ssh:
-      publicKeyName: kubernetes
+  -  name: spot
+     instanceType: m5.large
+     spot: true
+     desiredCapacity: 3
+      ssh:
+         publicKeyName: kubernetes
   
