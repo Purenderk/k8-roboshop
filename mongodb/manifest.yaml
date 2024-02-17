@@ -7,15 +7,15 @@ metadata:
      app: mongodb
      tier: DB
      project: roboshop
-  spec:
-    replicas: 1
-    selector: 
+spec:
+  replicas: 1
+  selector: 
      matchLabels:
        app: mongodb
        tier: DB
        project: roboshop
-    template:
-       metadata:
+  template:
+      metadata:
         labels:
           app: mongodb
           tier: DB
