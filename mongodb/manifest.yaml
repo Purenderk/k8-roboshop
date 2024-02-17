@@ -22,5 +22,5 @@ spec:
         project: roboshop
     spec: 
       containers:
-        name: mongodb
+      - name: mongodb
         image: purenderk/mongodb:k8
